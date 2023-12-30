@@ -1,5 +1,5 @@
 import sys
-sys.path.append("C:\HOUSE PRICE")
+sys.path.append("C:/HOUSE PRICE")
 from src.logger import logging
 
 
@@ -23,7 +23,7 @@ class CustomException(Exception):
         return self.error_message    
     
 
-
+'''
 if __name__=="__main__":
     logging.info("Logging has started")
 
@@ -32,3 +32,6 @@ if __name__=="__main__":
     except Exception as e:
         logging.info('error has occured') 
         raise CustomException(e,sys)
+
+        
+'''
